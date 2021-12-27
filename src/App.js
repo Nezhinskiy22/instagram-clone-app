@@ -97,7 +97,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="app">
       <Modal open={open} onClose={() => setOpen(false)}>
         <div style={modalStyle} className={classes.paper}>
           <form className="app__signup">
